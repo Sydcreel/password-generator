@@ -114,4 +114,13 @@ else if (confirmLowercase) {
 else if (confirmUppercase) {
   choices = space.concat(alpha2);
 };
+
+// Password array variable
+var password = [];
+
+
+// For loop if user randomly selects criteria
+for (var i = 0; i < enter; i++) {
+  var pickChoices = choices[Math.floor(Math.random() * choices.length)];
+  password.push(pickChoices);
 }
