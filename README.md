@@ -37,7 +37,7 @@ Clone this repository: https://github.com/Sydcreel/password-generator.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<img src="initial.png" />
+![Initial screen when Password Generator opens in browser]("C:\Users\Sydney Creel\Desktop\Projects\password-generator\screenshots\initial.PNG"raw=true)
 
 
 
