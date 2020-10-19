@@ -37,7 +37,7 @@ Clone this repository: https://github.com/Sydcreel/password-generator.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<img src="./screenshots/initial.png" />
+<img src="initial.png" />
 
 
 
