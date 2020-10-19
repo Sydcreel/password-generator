@@ -51,7 +51,67 @@ function generatePassword() {
         // Asks criteria to create password
         confirmNumber = confirm("Will this contain numbers?");
         confirmCharacter = confirm("Will this contain special characters?");
-        confirmUppercase = confirm("Will this contain Uppercase letters?");
-        confirmLowercase = confirm("Will this contain Lowercase letters?");
+        confirmUppercase = confirm("Will this contain uppercase letters?");
+        confirmLowercase = confirm("Will this contain lowercase letters?");
     };
 
+// If user chooses "No" for each prompt after choosing how many characters the password will be
+if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
+  choices = alert("You must select a criteria.");
+}
+
+// Else if user chooses "Yes" for each prompt after choosing how many characters the password will be
+else if (confirmCharacter && confirmNumber && confirmUppercase && confirmLowercase) {
+  choices = character.concat(number, alpha, alpha2);
+}
+
+// Else if user chooses "Yes" for 3 prompts
+else if (confirmCharacter && confirmNumber && confirmUppercase) {
+  choices = character.concat(number, alpha2);
+}
+else if (confirmCharacter && confirmNumber && confirmLowercase) {
+  choices = character.concat(number, alpha);
+}
+else if (confirmCharacter && confirmLowercase && confirmUppercase) {
+  choices = character.concat(alpha, alpha2);
+}
+else if (confirmNumber && confirmLowercase && confirmUppercase) {
+  choices = number.concat(alpha, alpha2);
+}
+
+// Else if user chooses "Yes" for 2 prompts
+else if (confirmCharacter && confirmNumber) {
+  choices = character.concat(number);
+
+} else if (confirmCharacter && confirmLowercase) {
+  choices = character.concat(alpha);
+
+} else if (confirmCharacter && confirmUppercase) {
+  choices = character.concat(alpha2);
+}
+else if (confirmLowercase && confirmNumber) {
+  choices = alpha.concat(number);
+
+} else if (confirmLowercase && confirmUppercase) {
+  choices = alpha.concat(alpha2);
+
+} else if (confirmNumber && confirmUppercase) {
+  choices = number.concat(alpha2);
+}
+
+// Else if user chooses "Yes" for 1 prompt
+else if (confirmCharacter) {
+  choices = character;
+}
+else if (confirmNumber) {
+  choices = number;
+}
+else if (confirmLowercase) {
+  choices = alpha;
+}
+
+// Create space variable to fill uppercase conversion
+else if (confirmUppercase) {
+  choices = space.concat(alpha2);
+};
+}
