@@ -124,3 +124,14 @@ for (var i = 0; i < enter; i++) {
   var pickChoices = choices[Math.floor(Math.random() * choices.length)];
   password.push(pickChoices);
 }
+
+// Converts password array to string
+var pass = password.join("");
+UserInput(pass);
+return pass;
+}
+
+// Displays generated password on screen
+function UserInput(pass) {
+document.getElementById("password").textContent = pass;
+}
