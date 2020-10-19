@@ -37,7 +37,13 @@ Clone this repository: https://github.com/Sydcreel/password-generator.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-![Initial screen when Password Generator opens in browser](\screenshots\initial.PNG?raw=true)
+![fifth prompt](https://user-images.githubusercontent.com/71848212/96400744-285f4c00-1197-11eb-8b77-d35e2b61a376.PNG)
+![first prompt](https://user-images.githubusercontent.com/71848212/96400745-2a290f80-1197-11eb-8b6a-f666a4ea9873.PNG)
+![fourth prompt](https://user-images.githubusercontent.com/71848212/96400748-2b5a3c80-1197-11eb-9a93-b0bbb0e395a8.PNG)
+![generated password](https://user-images.githubusercontent.com/71848212/96400765-36ad6800-1197-11eb-83e2-e0f8c27d27ea.PNG)
+![initial](https://user-images.githubusercontent.com/71848212/96400766-3745fe80-1197-11eb-91c2-c4fa5dda373f.PNG)
+![second prompt](https://user-images.githubusercontent.com/71848212/96400767-3745fe80-1197-11eb-9380-2a7d7ad2f209.PNG)
+![third prompt](https://user-images.githubusercontent.com/71848212/96400768-37de9500-1197-11eb-8132-209605c2dab7.PNG)
 
 
 
